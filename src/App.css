@@ -1,16 +1,12 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  margin-right: 150px;
+  margin-left: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px; 
+  color: #414347c0;
+  border: 2px solid black; 
 }
 
 .App-header {
@@ -28,11 +24,74 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+input{
+  padding: 8px;
+  margin-right: 10px;
+  border-color:rgba(175, 170, 170, 0.185);
+  
+  border-radius: 8px;
+}
+
+button{
+  padding: 7px;
+  border-radius: 8px;
+  border-color:rgba(175, 170, 170, 0.185);
+
+}
+
+
+
+.person-card {
+  border: 1px solid #282c34;
+  margin: 30px;
+  padding: 20px;
+}
+.person-card h3 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(204, 203, 203, 0.459); 
+}
+
+.car-info {
+  padding-left: 30px;
+  text-align: left;
+  background-color: #f0f0f073;
+  border: 1px solid rgba(195, 191, 191, 0.671);
+}
+.car-card{
+  border: 1px solid rgba(195, 191, 191, 0.671);
+  padding: 10px;
+
+}
+
+.link-card{
+  padding-top: 10px;
+  padding-bottom:25px;
+  text-align: left;
+  border-bottom: 1px solid rgba(195, 191, 191, 0.671);
+}
+
+h3{
+  padding-top: 10px;
+  padding-bottom:25px;
+  text-align: left;
+}
+h2{
+  color: #282c34d8;
+  text-align: center;
+  position: relative; 
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(195, 191, 191, 0.671);
+}
+h1{
+  color: #282c34d8;
+  font-size: 1rem;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(195, 191, 191, 0.671);
+}
+.back-button{
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+
 }
